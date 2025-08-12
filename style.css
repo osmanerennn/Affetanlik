@@ -1,0 +1,37 @@
+body {
+  margin: 0; padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  color: #222;
+}
+
+header, footer {
+  background-color: #1a73e8;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#quake-list, #event-list {
+  max-height: 150px;
+  overflow-y: auto;
+  background: white;
+  margin: 10px 15px;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.quake-item, .event-item {
+  border-bottom: 1px solid #ddd;
+  padding: 6px 0;
+  cursor: pointer;
+}
+
+.quake-item:last-child, .event-item:last-child {
+  border-bottom: none;
+}
+
+.quake-item:hover, .event-item:hover {
+  background-color: #e0f0ff;
+}

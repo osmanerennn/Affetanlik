@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AfetHarita - Türkiye Deprem & Afet Haritası</title>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>AfetHarita</h1>
+  </header>
+
+  <main>
+    <div id="map" style="height: 70vh;"></div>
+    <section id="quake-list">Depremler yükleniyor...</section>
+    <section id="event-list">Afetler yükleniyor...</section>
+  </main>
+
+  <footer>
+    <small>© 2025 AfetHarita - Veriler USGS ve NASA EONET API’den alınmaktadır.</small>
+  </footer>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
